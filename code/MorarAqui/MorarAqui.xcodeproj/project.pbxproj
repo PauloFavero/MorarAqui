@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5B05631E9289A400F3412F /* SearchHouse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5B05621E9289A400F3412F /* SearchHouse.storyboard */; };
+		5A5B05651E928F3A00F3412F /* TableViewHouse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5B05641E928F3A00F3412F /* TableViewHouse.storyboard */; };
+		5A5B05671E92926300F3412F /* DetailHouse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5B05661E92926300F3412F /* DetailHouse.storyboard */; };
+		5A5B05691E92971E00F3412F /* RegisterUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5B05681E92971E00F3412F /* RegisterUser.storyboard */; };
+		5A7E672B1E8E9F9E00432241 /* registeruserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E672A1E8E9F9E00432241 /* registeruserViewController.swift */; };
+		6D17462A1E8E6CCC00A8054F /* HouseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1746291E8E6CCC00A8054F /* HouseType.swift */; };
+		6D17462C1E8E6D0B00A8054F /* HousePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17462B1E8E6D0B00A8054F /* HousePhoto.swift */; };
+		6D17462E1E8E6D3C00A8054F /* Vacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17462D1E8E6D3C00A8054F /* Vacancy.swift */; };
+		6D1746301E8E6D7400A8054F /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17462F1E8E6D7400A8054F /* House.swift */; };
+		6D1746321E8E6DA900A8054F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		6D1746341E8E6E0400A8054F /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1746331E8E6E0400A8054F /* HouseModel.swift */; };
+		6D1746361E8E6E2900A8054F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1746351E8E6E2900A8054F /* UserModel.swift */; };
+		6D1746381E8E6E5100A8054F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1746371E8E6E5100A8054F /* UserService.swift */; };
+		6D17463A1E8E6E7A00A8054F /* HouseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1746391E8E6E7A00A8054F /* HouseService.swift */; };
+		6D17463C1E8E6E9B00A8054F /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17463B1E8E6E9B00A8054F /* MapService.swift */; };
+		6D1A35DB1E929106001BEA52 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A35DA1E929106001BEA52 /* SearchResults.swift */; };
+		6D1A35DD1E9294E5001BEA52 /* HouseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A35DC1E9294E5001BEA52 /* HouseResult.swift */; };
+		6D44DB351E8BFB860046B7F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44DB341E8BFB860046B7F7 /* AppDelegate.swift */; };
+		6D44DB371E8BFB860046B7F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44DB361E8BFB860046B7F7 /* ViewController.swift */; };
+		6D44DB3D1E8BFB860046B7F7 /* MorarAqui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D44DB3B1E8BFB860046B7F7 /* MorarAqui.xcdatamodeld */; };
+		6D44DB3F1E8BFB860046B7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D44DB3E1E8BFB860046B7F7 /* Assets.xcassets */; };
+		6D44DB4D1E8BFB860046B7F7 /* MorarAquiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44DB4C1E8BFB860046B7F7 /* MorarAquiTests.swift */; };
+		6D44DB581E8BFB860046B7F7 /* MorarAquiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44DB571E8BFB860046B7F7 /* MorarAquiUITests.swift */; };
+		7669D494F56C71D13627F809 /* Pods_MorarAqui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951A44495CB6F7988BCD3141 /* Pods_MorarAqui.framework */; };
+		A14F37001E93CBBB008DCD7A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F36FF1E93CBBB008DCD7A /* User.swift */; };
+		A14F37021E93D366008DCD7A /* DetailHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F37011E93D366008DCD7A /* DetailHouseViewController.swift */; };
+		A14F37071E93D90D008DCD7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14F37051E93D90D008DCD7A /* Main.storyboard */; };
+		A14F37081E93DBD2008DCD7A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F7BB71E926FF900E19FEA /* Login.storyboard */; };
+		A14F37091E93DBD8008DCD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D44DB401E8BFB860046B7F7 /* LaunchScreen.storyboard */; };
+		A1FDA0771E8E99AE00C9898F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDA0731E8E99AE00C9898F /* LoginViewController.swift */; };
+		A1FDA07B1E8E9CA000C9898F /* housescreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDA07A1E8E9CA000C9898F /* housescreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D44DB491E8BFB860046B7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D44DB291E8BFB860046B7F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D44DB301E8BFB860046B7F7;
+			remoteInfo = MorarAqui;
+		};
+		6D44DB541E8BFB860046B7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D44DB291E8BFB860046B7F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D44DB301E8BFB860046B7F7;
+			remoteInfo = MorarAqui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38E8D456C48B7170D11BEAE8 /* Pods-MorarAqui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorarAqui.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorarAqui/Pods-MorarAqui.release.xcconfig"; sourceTree = "<group>"; };
+		3A2F7BB71E926FF900E19FEA /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		5A5B05621E9289A400F3412F /* SearchHouse.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchHouse.storyboard; sourceTree = "<group>"; };
+		5A5B05641E928F3A00F3412F /* TableViewHouse.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TableViewHouse.storyboard; sourceTree = "<group>"; };
+		5A5B05661E92926300F3412F /* DetailHouse.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DetailHouse.storyboard; sourceTree = "<group>"; };
+		5A5B05681E92971E00F3412F /* RegisterUser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterUser.storyboard; sourceTree = "<group>"; };
+		5A7E672A1E8E9F9E00432241 /* registeruserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registeruserViewController.swift; sourceTree = "<group>"; };
+		6D1746291E8E6CCC00A8054F /* HouseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseType.swift; sourceTree = "<group>"; };
+		6D17462B1E8E6D0B00A8054F /* HousePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousePhoto.swift; sourceTree = "<group>"; };
+		6D17462D1E8E6D3C00A8054F /* Vacancy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacancy.swift; sourceTree = "<group>"; };
+		6D17462F1E8E6D7400A8054F /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		6D1746331E8E6E0400A8054F /* HouseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
+		6D1746351E8E6E2900A8054F /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6D1746371E8E6E5100A8054F /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		6D1746391E8E6E7A00A8054F /* HouseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseService.swift; sourceTree = "<group>"; };
+		6D17463B1E8E6E9B00A8054F /* MapService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
+		6D1A35DA1E929106001BEA52 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		6D1A35DC1E9294E5001BEA52 /* HouseResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseResult.swift; sourceTree = "<group>"; };
+		6D44DB311E8BFB860046B7F7 /* MorarAqui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorarAqui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D44DB341E8BFB860046B7F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D44DB361E8BFB860046B7F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D44DB3C1E8BFB860046B7F7 /* MorarAqui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MorarAqui.xcdatamodel; sourceTree = "<group>"; };
+		6D44DB3E1E8BFB860046B7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D44DB411E8BFB860046B7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D44DB431E8BFB860046B7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D44DB481E8BFB860046B7F7 /* MorarAquiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorarAquiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D44DB4C1E8BFB860046B7F7 /* MorarAquiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorarAquiTests.swift; sourceTree = "<group>"; };
+		6D44DB4E1E8BFB860046B7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D44DB531E8BFB860046B7F7 /* MorarAquiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorarAquiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D44DB571E8BFB860046B7F7 /* MorarAquiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorarAquiUITests.swift; sourceTree = "<group>"; };
+		6D44DB591E8BFB860046B7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951A44495CB6F7988BCD3141 /* Pods_MorarAqui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorarAqui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14F36FF1E93CBBB008DCD7A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A14F37011E93D366008DCD7A /* DetailHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHouseViewController.swift; sourceTree = "<group>"; };
+		A14F37061E93D90D008DCD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1FDA0731E8E99AE00C9898F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A1FDA07A1E8E9CA000C9898F /* housescreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = housescreenViewController.swift; sourceTree = "<group>"; };
+		E60E51D6AF0A287B3A116FF5 /* Pods-MorarAqui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorarAqui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorarAqui/Pods-MorarAqui.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D44DB2E1E8BFB860046B7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7669D494F56C71D13627F809 /* Pods_MorarAqui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D44DB451E8BFB860046B7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D44DB501E8BFB860046B7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2F7BB91E92700700E19FEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A14F37051E93D90D008DCD7A /* Main.storyboard */,
+				3A2F7BB71E926FF900E19FEA /* Login.storyboard */,
+				6D44DB401E8BFB860046B7F7 /* LaunchScreen.storyboard */,
+				6D44DB3E1E8BFB860046B7F7 /* Assets.xcassets */,
+				5A5B05621E9289A400F3412F /* SearchHouse.storyboard */,
+				5A5B05641E928F3A00F3412F /* TableViewHouse.storyboard */,
+				A1FDA07A1E8E9CA000C9898F /* housescreenViewController.swift */,
+				5A5B05661E92926300F3412F /* DetailHouse.storyboard */,
+				5A5B05681E92971E00F3412F /* RegisterUser.storyboard */,
+				6D44DB361E8BFB860046B7F7 /* ViewController.swift */,
+				A1FDA0731E8E99AE00C9898F /* LoginViewController.swift */,
+				5A7E672A1E8E9F9E00432241 /* registeruserViewController.swift */,
+				A14F37011E93D366008DCD7A /* DetailHouseViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6D44DB281E8BFB860046B7F7 = {
+			isa = PBXGroup;
+			children = (
+				6D44DB331E8BFB860046B7F7 /* MorarAqui */,
+				6D44DB4B1E8BFB860046B7F7 /* MorarAquiTests */,
+				6D44DB561E8BFB860046B7F7 /* MorarAquiUITests */,
+				6D44DB321E8BFB860046B7F7 /* Products */,
+				71DCB5A401126C597FB01108 /* Pods */,
+				7CEDA7A8CB9A7E682DA61E2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D44DB321E8BFB860046B7F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D44DB311E8BFB860046B7F7 /* MorarAqui.app */,
+				6D44DB481E8BFB860046B7F7 /* MorarAquiTests.xctest */,
+				6D44DB531E8BFB860046B7F7 /* MorarAquiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D44DB331E8BFB860046B7F7 /* MorarAqui */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F7BB91E92700700E19FEA /* View */,
+				6D44DB6A1E8BFC2D0046B7F7 /* Entity */,
+				6D44DB691E8BFC1E0046B7F7 /* Model */,
+				6D44DB651E8BFBAC0046B7F7 /* Service */,
+				6D44DB341E8BFB860046B7F7 /* AppDelegate.swift */,
+				6D17463B1E8E6E9B00A8054F /* MapService.swift */,
+				6D44DB431E8BFB860046B7F7 /* Info.plist */,
+				6D44DB3B1E8BFB860046B7F7 /* MorarAqui.xcdatamodeld */,
+			);
+			path = MorarAqui;
+			sourceTree = "<group>";
+		};
+		6D44DB4B1E8BFB860046B7F7 /* MorarAquiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D44DB4C1E8BFB860046B7F7 /* MorarAquiTests.swift */,
+				6D44DB4E1E8BFB860046B7F7 /* Info.plist */,
+			);
+			path = MorarAquiTests;
+			sourceTree = "<group>";
+		};
+		6D44DB561E8BFB860046B7F7 /* MorarAquiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D44DB571E8BFB860046B7F7 /* MorarAquiUITests.swift */,
+				6D44DB591E8BFB860046B7F7 /* Info.plist */,
+			);
+			path = MorarAquiUITests;
+			sourceTree = "<group>";
+		};
+		6D44DB651E8BFBAC0046B7F7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6D1746371E8E6E5100A8054F /* UserService.swift */,
+				6D1746391E8E6E7A00A8054F /* HouseService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		6D44DB691E8BFC1E0046B7F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D1746331E8E6E0400A8054F /* HouseModel.swift */,
+				6D1746351E8E6E2900A8054F /* UserModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6D44DB6A1E8BFC2D0046B7F7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A14F36FF1E93CBBB008DCD7A /* User.swift */,
+				6D1746291E8E6CCC00A8054F /* HouseType.swift */,
+				6D17462B1E8E6D0B00A8054F /* HousePhoto.swift */,
+				6D17462D1E8E6D3C00A8054F /* Vacancy.swift */,
+				6D17462F1E8E6D7400A8054F /* House.swift */,
+				6D1A35DA1E929106001BEA52 /* SearchResults.swift */,
+				6D1A35DC1E9294E5001BEA52 /* HouseResult.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		71DCB5A401126C597FB01108 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60E51D6AF0A287B3A116FF5 /* Pods-MorarAqui.debug.xcconfig */,
+				38E8D456C48B7170D11BEAE8 /* Pods-MorarAqui.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CEDA7A8CB9A7E682DA61E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				951A44495CB6F7988BCD3141 /* Pods_MorarAqui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D44DB301E8BFB860046B7F7 /* MorarAqui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D44DB5C1E8BFB860046B7F7 /* Build configuration list for PBXNativeTarget "MorarAqui" */;
+			buildPhases = (
+				E27E8D618535AD3DCC709EB0 /* [CP] Check Pods Manifest.lock */,
+				6D44DB2D1E8BFB860046B7F7 /* Sources */,
+				6D44DB2E1E8BFB860046B7F7 /* Frameworks */,
+				6D44DB2F1E8BFB860046B7F7 /* Resources */,
+				1690028498220B63E54AF16A /* [CP] Embed Pods Frameworks */,
+				CC89E89208533BDFBBEB31E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorarAqui;
+			productName = MorarAqui;
+			productReference = 6D44DB311E8BFB860046B7F7 /* MorarAqui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D44DB471E8BFB860046B7F7 /* MorarAquiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D44DB5F1E8BFB860046B7F7 /* Build configuration list for PBXNativeTarget "MorarAquiTests" */;
+			buildPhases = (
+				6D44DB441E8BFB860046B7F7 /* Sources */,
+				6D44DB451E8BFB860046B7F7 /* Frameworks */,
+				6D44DB461E8BFB860046B7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D44DB4A1E8BFB860046B7F7 /* PBXTargetDependency */,
+			);
+			name = MorarAquiTests;
+			productName = MorarAquiTests;
+			productReference = 6D44DB481E8BFB860046B7F7 /* MorarAquiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D44DB521E8BFB860046B7F7 /* MorarAquiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D44DB621E8BFB860046B7F7 /* Build configuration list for PBXNativeTarget "MorarAquiUITests" */;
+			buildPhases = (
+				6D44DB4F1E8BFB860046B7F7 /* Sources */,
+				6D44DB501E8BFB860046B7F7 /* Frameworks */,
+				6D44DB511E8BFB860046B7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D44DB551E8BFB860046B7F7 /* PBXTargetDependency */,
+			);
+			name = MorarAquiUITests;
+			productName = MorarAquiUITests;
+			productReference = 6D44DB531E8BFB860046B7F7 /* MorarAquiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D44DB291E8BFB860046B7F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Instituto de Pesquisas Eldorado";
+				TargetAttributes = {
+					6D44DB301E8BFB860046B7F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 35D3LN92U2;
+						ProvisioningStyle = Automatic;
+					};
+					6D44DB471E8BFB860046B7F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 35D3LN92U2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D44DB301E8BFB860046B7F7;
+					};
+					6D44DB521E8BFB860046B7F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D44DB301E8BFB860046B7F7;
+					};
+				};
+			};
+			buildConfigurationList = 6D44DB2C1E8BFB860046B7F7 /* Build configuration list for PBXProject "MorarAqui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D44DB281E8BFB860046B7F7;
+			productRefGroup = 6D44DB321E8BFB860046B7F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D44DB301E8BFB860046B7F7 /* MorarAqui */,
+				6D44DB471E8BFB860046B7F7 /* MorarAquiTests */,
+				6D44DB521E8BFB860046B7F7 /* MorarAquiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D44DB2F1E8BFB860046B7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5B05671E92926300F3412F /* DetailHouse.storyboard in Resources */,
+				A14F37091E93DBD8008DCD7A /* LaunchScreen.storyboard in Resources */,
+				5A5B05651E928F3A00F3412F /* TableViewHouse.storyboard in Resources */,
+				A14F37081E93DBD2008DCD7A /* Login.storyboard in Resources */,
+				5A5B05691E92971E00F3412F /* RegisterUser.storyboard in Resources */,
+				A14F37071E93D90D008DCD7A /* Main.storyboard in Resources */,
+				5A5B05631E9289A400F3412F /* SearchHouse.storyboard in Resources */,
+				6D44DB3F1E8BFB860046B7F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D44DB461E8BFB860046B7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D44DB511E8BFB860046B7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1690028498220B63E54AF16A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorarAqui/Pods-MorarAqui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC89E89208533BDFBBEB31E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorarAqui/Pods-MorarAqui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27E8D618535AD3DCC709EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D44DB2D1E8BFB860046B7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1746301E8E6D7400A8054F /* House.swift in Sources */,
+				6D17462C1E8E6D0B00A8054F /* HousePhoto.swift in Sources */,
+				A1FDA0771E8E99AE00C9898F /* LoginViewController.swift in Sources */,
+				6D17462A1E8E6CCC00A8054F /* HouseType.swift in Sources */,
+				A14F37021E93D366008DCD7A /* DetailHouseViewController.swift in Sources */,
+				6D44DB371E8BFB860046B7F7 /* ViewController.swift in Sources */,
+				5A7E672B1E8E9F9E00432241 /* registeruserViewController.swift in Sources */,
+				6D1A35DB1E929106001BEA52 /* SearchResults.swift in Sources */,
+				6D1746321E8E6DA900A8054F /* (null) in Sources */,
+				6D1746341E8E6E0400A8054F /* HouseModel.swift in Sources */,
+				6D17463A1E8E6E7A00A8054F /* HouseService.swift in Sources */,
+				6D1746381E8E6E5100A8054F /* UserService.swift in Sources */,
+				6D44DB351E8BFB860046B7F7 /* AppDelegate.swift in Sources */,
+				6D17463C1E8E6E9B00A8054F /* MapService.swift in Sources */,
+				6D44DB3D1E8BFB860046B7F7 /* MorarAqui.xcdatamodeld in Sources */,
+				A1FDA07B1E8E9CA000C9898F /* housescreenViewController.swift in Sources */,
+				6D1746361E8E6E2900A8054F /* UserModel.swift in Sources */,
+				6D17462E1E8E6D3C00A8054F /* Vacancy.swift in Sources */,
+				6D1A35DD1E9294E5001BEA52 /* HouseResult.swift in Sources */,
+				A14F37001E93CBBB008DCD7A /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D44DB441E8BFB860046B7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D44DB4D1E8BFB860046B7F7 /* MorarAquiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D44DB4F1E8BFB860046B7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D44DB581E8BFB860046B7F7 /* MorarAquiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D44DB4A1E8BFB860046B7F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D44DB301E8BFB860046B7F7 /* MorarAqui */;
+			targetProxy = 6D44DB491E8BFB860046B7F7 /* PBXContainerItemProxy */;
+		};
+		6D44DB551E8BFB860046B7F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D44DB301E8BFB860046B7F7 /* MorarAqui */;
+			targetProxy = 6D44DB541E8BFB860046B7F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D44DB401E8BFB860046B7F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D44DB411E8BFB860046B7F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A14F37051E93D90D008DCD7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14F37061E93D90D008DCD7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D44DB5A1E8BFB860046B7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D44DB5B1E8BFB860046B7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D44DB5D1E8BFB860046B7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60E51D6AF0A287B3A116FF5 /* Pods-MorarAqui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35D3LN92U2;
+				INFOPLIST_FILE = MorarAqui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.cocoaboys.MorarAqui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D44DB5E1E8BFB860046B7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E8D456C48B7170D11BEAE8 /* Pods-MorarAqui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35D3LN92U2;
+				INFOPLIST_FILE = MorarAqui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.cocoaboys.MorarAqui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6D44DB601E8BFB860046B7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35D3LN92U2;
+				INFOPLIST_FILE = MorarAquiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.cocoaboys.MorarAquiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorarAqui.app/MorarAqui";
+			};
+			name = Debug;
+		};
+		6D44DB611E8BFB860046B7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35D3LN92U2;
+				INFOPLIST_FILE = MorarAquiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.cocoaboys.MorarAquiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorarAqui.app/MorarAqui";
+			};
+			name = Release;
+		};
+		6D44DB631E8BFB860046B7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MorarAquiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.cocoaboys.MorarAquiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MorarAqui;
+			};
+			name = Debug;
+		};
+		6D44DB641E8BFB860046B7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MorarAquiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.cocoaboys.MorarAquiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MorarAqui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D44DB2C1E8BFB860046B7F7 /* Build configuration list for PBXProject "MorarAqui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D44DB5A1E8BFB860046B7F7 /* Debug */,
+				6D44DB5B1E8BFB860046B7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D44DB5C1E8BFB860046B7F7 /* Build configuration list for PBXNativeTarget "MorarAqui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D44DB5D1E8BFB860046B7F7 /* Debug */,
+				6D44DB5E1E8BFB860046B7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D44DB5F1E8BFB860046B7F7 /* Build configuration list for PBXNativeTarget "MorarAquiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D44DB601E8BFB860046B7F7 /* Debug */,
+				6D44DB611E8BFB860046B7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D44DB621E8BFB860046B7F7 /* Build configuration list for PBXNativeTarget "MorarAquiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D44DB631E8BFB860046B7F7 /* Debug */,
+				6D44DB641E8BFB860046B7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D44DB3B1E8BFB860046B7F7 /* MorarAqui.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D44DB3C1E8BFB860046B7F7 /* MorarAqui.xcdatamodel */,
+			);
+			currentVersion = 6D44DB3C1E8BFB860046B7F7 /* MorarAqui.xcdatamodel */;
+			path = MorarAqui.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D44DB291E8BFB860046B7F7 /* Project object */;
+}

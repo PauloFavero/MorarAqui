@@ -1,0 +1,6 @@
+framework module Pods_MorarAqui {
+  umbrella header "Pods-MorarAqui-umbrella.h"
+
+  export *
+  module * { export * }
+}
